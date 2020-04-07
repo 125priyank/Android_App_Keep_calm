@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#4F806F"
+        tools:context=".AiBot">
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_gravity="bottom"
+                  android:layout_width="match_parent"
+                  android:weightSum="6"
+                  android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+                app:cardCornerRadius="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content">
+
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:minHeight="38dp"
+                    android:inputType="textMultiLine"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:id="@+id/editText2"/>
+        </android.support.v7.widget.CardView>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                    android:layout_gravity="center"
+                    app:fabCustomSize="50dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_arrow_forward_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
